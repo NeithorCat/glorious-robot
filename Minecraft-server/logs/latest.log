@@ -1,0 +1,434 @@
+2024-03-05 02:14:54,355 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.17, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
+2024-03-05 02:14:54,359 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.2 by Microsoft
+2024-03-05 02:14:54,484 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2316!/ Service=ModLauncher Env=SERVER
+2024-03-05 02:14:54,900 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(51)[m: No dependencies to load found. Skipping!
+2024-03-05 02:14:56,785 [32mINFO [m [m[main][m [mmixin.info(97)[m: Compatibility level set to JAVA_17
+2024-03-05 02:14:56,902 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [nogui]
+2024-03-05 02:14:56,962 [33mWARN [m [m[main][m [mmixin.warn(132)[m: Reference map 'creativecore.mixins.refmap.json' for creativecore.mixins.json could not be read. If this is a development environment you can ignore this message
+2024-03-05 02:14:56,979 [33mWARN [m [m[main][m [mmixin.warn(132)[m: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+2024-03-05 02:14:57,413 [32mINFO [m [m[main][m [mn.m.c.C.uteamcore.logMessage(122)[m: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
+2024-03-05 02:15:01,587 [33mWARN [m [m[main][m [mmixin.warn(132)[m: @Final field f_31427_:[I in epicfight.mixins.json:MixinWitherBoss should be final
+2024-03-05 02:15:01,587 [33mWARN [m [m[main][m [mmixin.warn(132)[m: @Final field f_31428_:[I in epicfight.mixins.json:MixinWitherBoss should be final
+2024-03-05 02:15:02,964 [32mINFO [m [m[main][m [mn.m.c.C.uteamcore.logMessage(122)[m: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
+2024-03-05 02:15:06,859 [32mINFO [m [m[modloading-worker-0][m [mJarSignVerifier.checkSigned(35)[m: Mod usefulbackpacks is signed with a valid certificate.
+2024-03-05 02:15:07,352 [32mINFO [m [m[modloading-worker-0][m [mcoroutil.log(18)[m: forge loader environment detected
+2024-03-05 02:15:07,371 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:ender_step
+2024-03-05 02:15:07,379 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:ender_obscuris
+2024-03-05 02:15:07,383 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:dodge_master
+2024-03-05 02:15:07,385 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:precise_roll
+2024-03-05 02:15:07,386 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:shadow_step
+2024-03-05 02:15:07,398 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:bull_charge
+2024-03-05 02:15:07,409 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:basic_attack
+2024-03-05 02:15:07,413 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:demon_mark_passive
+2024-03-05 02:15:07,421 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:torment_passive
+2024-03-05 02:15:07,422 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:air_attack
+2024-03-05 02:15:07,422 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:roll
+2024-03-05 02:15:07,423 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:step
+2024-03-05 02:15:07,424 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:ruine_passive
+2024-03-05 02:15:07,426 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:knockdown_wakeup
+2024-03-05 02:15:07,429 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:lunar_echo_passive
+2024-03-05 02:15:07,433 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:satsujin_passive
+2024-03-05 02:15:07,433 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:guard
+2024-03-05 02:15:07,438 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:charybdis
+2024-03-05 02:15:07,442 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:parrying
+2024-03-05 02:15:07,443 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:agony_plunge
+2024-03-05 02:15:07,451 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:true_berserk
+2024-03-05 02:15:07,455 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:impact_guard
+2024-03-05 02:15:07,456 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:berserker
+2024-03-05 02:15:07,458 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:plunder_perdition
+2024-03-05 02:15:07,470 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:death_harvest
+2024-03-05 02:15:07,470 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:sakura_state
+2024-03-05 02:15:07,471 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:emergency_escape
+2024-03-05 02:15:07,477 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:endurance
+2024-03-05 02:15:07,478 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:forbidden_strength
+2024-03-05 02:15:07,479 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:hypervitality
+2024-03-05 02:15:07,478 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:ender_blast
+2024-03-05 02:15:07,480 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:stamina_pillager
+2024-03-05 02:15:07,481 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:swordmaster
+2024-03-05 02:15:07,481 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:technician
+2024-03-05 02:15:07,482 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:sweeping_edge
+2024-03-05 02:15:07,484 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:dancing_edge
+2024-03-05 02:15:07,487 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:ender_fusion
+2024-03-05 02:15:07,504 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:the_guillotine
+2024-03-05 02:15:07,505 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:grasping_spire
+2024-03-05 02:15:07,505 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:heartpiercer
+2024-03-05 02:15:07,507 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:steel_whirlwind
+2024-03-05 02:15:07,507 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:battojutsu
+2024-03-05 02:15:07,507 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:demonic_ascension
+2024-03-05 02:15:07,508 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:battojutsu_passive
+2024-03-05 02:15:07,509 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:rushing_tempo
+2024-03-05 02:15:07,509 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:relentless_combo
+2024-03-05 02:15:07,518 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:regierung
+2024-03-05 02:15:07,518 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:liechtenauer
+2024-03-05 02:15:07,523 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:sharp_stab
+2024-03-05 02:15:07,524 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:eviscerate
+2024-03-05 02:15:07,524 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:lunar_eclipse
+2024-03-05 02:15:07,535 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:counter_attack
+2024-03-05 02:15:07,555 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:perfect_bulwark
+2024-03-05 02:15:07,557 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:vengeful_parry
+2024-03-05 02:15:07,579 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:arrow_tenacity
+2024-03-05 02:15:07,580 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:pain_anticipation
+2024-03-05 02:15:07,581 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:latent_retribution
+2024-03-05 02:15:07,582 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:vampirize
+2024-03-05 02:15:07,583 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:critical_knowledge
+2024-03-05 02:15:07,585 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:heart_shield
+2024-03-05 02:15:07,586 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:mindset
+2024-03-05 02:15:07,587 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:adrenaline
+2024-03-05 02:15:07,589 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:dancing_blade
+2024-03-05 02:15:07,594 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill wom:meditation
+2024-03-05 02:15:07,609 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:blade_rush
+2024-03-05 02:15:07,637 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:wrathful_lighting
+2024-03-05 02:15:07,641 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:tsunami
+2024-03-05 02:15:07,642 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:everlasting_allegiance
+2024-03-05 02:15:07,661 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:meteor_slam
+2024-03-05 02:15:07,665 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:revelation
+2024-03-05 02:15:07,666 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:demolition_leap
+2024-03-05 02:15:07,668 [32mINFO [m [m[modloading-worker-0][m [mepicfight.register(79)[m: register skill epicfight:phantom_ascent
+2024-03-05 02:15:07,764 [32mINFO [m [m[modloading-worker-0][m [mSpartan Weaponry.info(12)[m: Constructing Mod: Spartan Weaponry
+2024-03-05 02:15:07,764 [32mINFO [m [m[modloading-worker-0][m [mSpartan Weaponry.info(12)[m: Initialising API! Version: 8
+2024-03-05 02:15:07,766 [32mINFO [m [m[modloading-worker-0][m [mSpartan Weaponry.info(12)[m: Spartan Weaponry API version 8 has been initalized!
+2024-03-05 02:15:07,881 [32mINFO [m [m[modloading-worker-0][m [mJarSignVerifier.checkSigned(35)[m: Mod uteamcore is signed with a valid certificate.
+2024-03-05 02:15:07,984 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id architectury:sync_ids
+2024-03-05 02:15:08,146 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(141)[m: Forge mod loading, version 40.2.17, for MC 1.18.2 with MCP 20220404.173914
+2024-03-05 02:15:08,146 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.MinecraftForge.initialize(41)[m: MinecraftForge v40.2.17 Initialized
+2024-03-05 02:15:08,509 [32mINFO [m [m[modloading-worker-0][m [mc.m.MohistMC.init(17)[m: EventDispatcherRegistry initialized
+2024-03-05 02:15:09,862 [32mINFO [m [m[main][m [mr.m.s.SiegeMachines.onBlocksRegistry(107)[m: HELLO from Register Block
+2024-03-05 02:15:13,167 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class com.github.alexthe666.alexsmobs.entity.EntityLeafcutterAnt from class com.github.alexthe666.alexsmobs.entity.EntityDevilsHolePupfish
+2024-03-05 02:15:13,168 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class com.github.alexthe666.alexsmobs.entity.EntityMantisShrimp from class com.github.alexthe666.alexsmobs.entity.EntitySkelewag
+2024-03-05 02:15:13,215 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,216 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,216 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,216 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,217 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,217 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,217 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,218 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+2024-03-05 02:15:13,219 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,220 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,220 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,222 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,222 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,223 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,223 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,223 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,223 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,232 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,232 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,233 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+2024-03-05 02:15:13,234 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,240 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,240 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+2024-03-05 02:15:13,240 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,241 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+2024-03-05 02:15:13,241 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+2024-03-05 02:15:13,245 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,245 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,246 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,246 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,246 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,248 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,256 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,256 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,260 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,260 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,261 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:13,262 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.GrimReaperEntity from class forge.net.mca.util.network.datasync.CEnumParameter
+2024-03-05 02:15:13,327 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.setConfig(88)[m: Configuration file /workspaces/codespaces-jupyter/Minecraft-server/config/siege-machines-specs.toml is not correct. Correcting
+2024-03-05 02:15:13,328 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.mortar.projectileSpeed was corrected from 2.5 to its default, 2.5. 
+2024-03-05 02:15:13,328 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.mortar.inaccuracy was corrected from 0.2 to its default, 0.2. 
+2024-03-05 02:15:13,328 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.mortar.damageMultiplier was corrected from 1.5 to its default, 1.5. 
+2024-03-05 02:15:13,329 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.culverin.projectileSpeed was corrected from 3.5 to its default, 3.5. 
+2024-03-05 02:15:13,329 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.culverin.inaccuracy was corrected from 0.03 to its default, 0.03. 
+2024-03-05 02:15:13,333 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.culverin.damageMultiplier was corrected from 3.0 to its default, 3.0. 
+2024-03-05 02:15:13,333 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.trebuchet.projectileSpeed was corrected from 2.8 to its default, 2.8. 
+2024-03-05 02:15:13,333 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.trebuchet.inaccuracy was corrected from 0.2 to its default, 0.2. 
+2024-03-05 02:15:13,334 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.trebuchet.damageMultiplier was corrected from 2.0 to its default, 2.0. 
+2024-03-05 02:15:13,334 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.catapult.projectileSpeed was corrected from 2.0 to its default, 2.0. 
+2024-03-05 02:15:13,334 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.catapult.inaccuracy was corrected from 0.2 to its default, 0.2. 
+2024-03-05 02:15:13,334 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.catapult.damageMultiplier was corrected from 1.0 to its default, 1.0. 
+2024-03-05 02:15:13,334 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.ballista.projectileSpeed was corrected from 4.5 to its default, 4.5. 
+2024-03-05 02:15:13,334 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.ballista.inaccuracy was corrected from 0.04 to its default, 0.04. 
+2024-03-05 02:15:13,335 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.ballista.damageMultiplier was corrected from 1.2 to its default, 1.2. 
+2024-03-05 02:15:13,335 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.battering_ram.projectileSpeed was corrected from 0.0 to its default, 0.0. 
+2024-03-05 02:15:13,335 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.battering_ram.inaccuracy was corrected from 0.5 to its default, 0.5. 
+2024-03-05 02:15:13,335 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.battering_ram.damageMultiplier was corrected from 0.0 to its default, 0.0. 
+2024-03-05 02:15:13,335 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.siege_ladder.projectileSpeed was corrected from 0.0 to its default, 0.0. 
+2024-03-05 02:15:13,335 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.siege_ladder.inaccuracy was corrected from 0.0 to its default, 0.0. 
+2024-03-05 02:15:13,336 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key siege_machines.siege_ladder.damageMultiplier was corrected from 0.0 to its default, 0.0. 
+2024-03-05 02:15:13,336 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key missiles.cannonball.mass was corrected from 15.0 to its default, 15.0. 
+2024-03-05 02:15:13,336 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key missiles.cannonball.explosionRadius was corrected from 3.0 to its default, 3.0. 
+2024-03-05 02:15:13,336 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key missiles.stone.mass was corrected from 50.0 to its default, 50.0. 
+2024-03-05 02:15:13,336 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key missiles.stone.explosionRadius was corrected from 2.0 to its default, 2.0. 
+2024-03-05 02:15:13,336 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key missiles.giant_stone.mass was corrected from 70.0 to its default, 70.0. 
+2024-03-05 02:15:13,337 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key missiles.giant_stone.explosionRadius was corrected from 5.0 to its default, 5.0. 
+2024-03-05 02:15:13,634 [32mINFO [m [m[modloading-worker-0][m [mvoicechat.log(53)[m: [voicechat] Compatibility version 17
+2024-03-05 02:15:13,652 [32mINFO [m [m[modloading-worker-0][m [mr.m.s.SiegeMachines.setup(75)[m: HELLO FROM PREINIT
+2024-03-05 02:15:13,652 [32mINFO [m [m[modloading-worker-0][m [mr.m.s.SiegeMachines.setup(76)[m: DIRT BLOCK >> minecraft:dirt
+2024-03-05 02:15:13,894 [32mINFO [m [m[modloading-worker-0][m [mSpartan Weaponry.info(12)[m: Setting up Spartan Weaponry!
+2024-03-05 02:15:13,909 [32mINFO [m [m[modloading-worker-0][m [mvoicechat.log(53)[m: [voicechat] Loading plugins
+2024-03-05 02:15:13,931 [32mINFO [m [m[modloading-worker-0][m [mvoicechat.log(53)[m: [voicechat] Loaded 0 plugin(s)
+2024-03-05 02:15:13,932 [32mINFO [m [m[modloading-worker-0][m [mvoicechat.log(53)[m: [voicechat] Initializing plugins
+2024-03-05 02:15:13,932 [32mINFO [m [m[modloading-worker-0][m [mvoicechat.log(53)[m: [voicechat] Initialized 0 plugin(s)
+2024-03-05 02:15:14,100 [32mINFO [m [m[main][m [mFramework.registerDataKey(148)[m: Registered synced data key cgm:aiming for minecraft:player
+2024-03-05 02:15:14,111 [32mINFO [m [m[main][m [mFramework.registerDataKey(148)[m: Registered synced data key cgm:shooting for minecraft:player
+2024-03-05 02:15:14,111 [32mINFO [m [m[main][m [mFramework.registerDataKey(148)[m: Registered synced data key cgm:reloading for minecraft:player
+2024-03-05 02:15:14,149 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region minecraft:overworld to index 0 for type OVERWORLD
+2024-03-05 02:15:14,150 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region minecraft:nether to index 0 for type NETHER
+2024-03-05 02:15:14,151 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region biomesoplenty:overworld_common to index 1 for type OVERWORLD
+2024-03-05 02:15:14,152 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region biomesoplenty:overworld_rare to index 2 for type OVERWORLD
+2024-03-05 02:15:14,152 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+2024-03-05 02:15:14,152 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+2024-03-05 02:15:14,268 [32mINFO [m [m[main][m [mjourneymap.lambda$commonSetupEvent$5(160)[m: Initializing Packet Registries
+2024-03-05 02:15:14,633 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, LongHitAnimation wom:animmodels/animations/biped/living/biped_hit_extra_long
+2024-03-05 02:15:14,639 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, LongHitAnimation wom:animmodels/animations/biped/living/biped_hit_extra_long
+2024-03-05 02:15:14,639 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, LongHitAnimation wom:animmodels/animations/biped/living/biped_hit_extra_long
+2024-03-05 02:15:14,639 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, LongHitAnimation wom:animmodels/animations/biped/living/biped_hit_extra_long
+2024-03-05 02:15:14,774 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/meditation_siting
+2024-03-05 02:15:14,774 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/meditation_siting
+2024-03-05 02:15:14,774 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Weapon_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/meditation_siting
+2024-03-05 02:15:14,774 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Sheath_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/meditation_siting
+2024-03-05 02:15:14,779 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/meditation_breathing
+2024-03-05 02:15:14,781 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/meditation_breathing
+2024-03-05 02:15:14,782 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Weapon_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/meditation_breathing
+2024-03-05 02:15:14,784 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Sheath_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/meditation_breathing
+2024-03-05 02:15:14,887 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/agony_walk
+2024-03-05 02:15:14,887 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/agony_walk
+2024-03-05 02:15:15,427 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/katana_sheathe
+2024-03-05 02:15:15,429 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/katana_sheathe
+2024-03-05 02:15:15,429 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Weapon_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/katana_sheathe
+2024-03-05 02:15:15,430 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Sheath_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/katana_sheathe
+2024-03-05 02:15:15,512 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/katana_idle
+2024-03-05 02:15:15,515 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/katana_idle
+2024-03-05 02:15:15,517 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Weapon_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/katana_idle
+2024-03-05 02:15:15,525 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/katana_walk
+2024-03-05 02:15:15,526 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/katana_walk
+2024-03-05 02:15:15,534 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/katana_run
+2024-03-05 02:15:15,535 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/katana_run
+2024-03-05 02:15:15,967 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/herrscher_guard
+2024-03-05 02:15:15,973 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/herrscher_guard
+2024-03-05 02:15:15,975 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/herrscher_guard_hit
+2024-03-05 02:15:15,975 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/herrscher_guard_hit
+2024-03-05 02:15:15,976 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/herrscher_guard_parry
+2024-03-05 02:15:15,977 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/herrscher_guard_parry
+2024-03-05 02:15:16,011 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/moonless_idle
+2024-03-05 02:15:16,012 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/moonless_idle
+2024-03-05 02:15:16,012 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/moonless_idle
+2024-03-05 02:15:16,012 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/moonless_idle
+2024-03-05 02:15:16,014 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/moonless_walk
+2024-03-05 02:15:16,014 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/moonless_walk
+2024-03-05 02:15:16,014 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/moonless_walk
+2024-03-05 02:15:16,014 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/moonless_walk
+2024-03-05 02:15:16,016 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/moonless_run
+2024-03-05 02:15:16,016 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/moonless_run
+2024-03-05 02:15:16,016 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/moonless_run
+2024-03-05 02:15:16,016 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/moonless_run
+2024-03-05 02:15:16,047 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/moonless_guard
+2024-03-05 02:15:16,047 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/moonless_guard
+2024-03-05 02:15:16,047 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/moonless_guard
+2024-03-05 02:15:16,048 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/moonless_guard
+2024-03-05 02:15:16,058 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_1
+2024-03-05 02:15:16,058 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_1
+2024-03-05 02:15:16,059 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_1
+2024-03-05 02:15:16,059 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_1
+2024-03-05 02:15:16,060 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_2
+2024-03-05 02:15:16,060 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_2
+2024-03-05 02:15:16,060 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_2
+2024-03-05 02:15:16,060 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_2
+2024-03-05 02:15:16,062 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_3
+2024-03-05 02:15:16,063 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_3
+2024-03-05 02:15:16,073 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_3
+2024-03-05 02:15:16,073 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_3
+2024-03-05 02:15:16,077 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/solar_idle
+2024-03-05 02:15:16,077 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/solar_idle
+2024-03-05 02:15:16,077 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/solar_idle
+2024-03-05 02:15:16,082 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/solar_idle
+2024-03-05 02:15:16,084 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/solar_walk
+2024-03-05 02:15:16,084 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/solar_walk
+2024-03-05 02:15:16,084 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/solar_walk
+2024-03-05 02:15:16,085 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/solar_walk
+2024-03-05 02:15:16,086 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/solar_run
+2024-03-05 02:15:16,086 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/solar_run
+2024-03-05 02:15:16,087 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/solar_run
+2024-03-05 02:15:16,088 [33mWARN [m [m[modloading-worker-0][m [mepicfight.loadStaticAnimation(355)[m: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/solar_run
+2024-03-05 02:15:16,475 [32mINFO [m [m[modloading-worker-0][m [mr.m.s.SiegeMachines.processIMC(93)[m: Got IMC []
+2024-03-05 02:15:18,899 [32mINFO [m [m[main][m [mc.m.a.y.YggdrasilAuthenticationService.<init>(72)[m: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+2024-03-05 02:15:20,462 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2388!/assets/.mcassetsroot' uses unexpected schema
+2024-03-05 02:15:20,467 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2388!/data/.mcassetsroot' uses unexpected schema
+2024-03-05 02:15:23,958 [32mINFO [m [m[main][m [mSpartan Weaponry.info(12)[m: Finished registering commands for Spartan Weaponry!
+2024-03-05 02:15:24,133 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+2024-03-05 02:15:24,140 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+2024-03-05 02:15:24,147 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+2024-03-05 02:15:24,150 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+2024-03-05 02:15:24,166 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+2024-03-05 02:15:24,170 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [voicechat, join, group_id] and [voicechat, join, group_name] with inputs: [dd12be42-52a9-4a91-a8a1-11c01849e498]
+2024-03-05 02:15:28,292 [32mINFO [m [m[Worker-Main-6][m [mn.m.w.i.c.RecipeManager.m_5787_(85)[m: Loaded 10 recipes
+2024-03-05 02:15:29,276 [32mINFO [m [m[Worker-Main-6][m [mSpartan Weaponry.info(12)[m: Adding Diamond Weapons to the End City Treasure Loot Table!
+2024-03-05 02:15:29,302 [32mINFO [m [m[Worker-Main-6][m [mSpartan Weaponry.info(12)[m: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+2024-03-05 02:15:29,491 [32mINFO [m [m[Worker-Main-6][m [mSpartan Weaponry.info(12)[m: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+2024-03-05 02:15:31,704 [32mINFO [m [m[main][m [mSpartan Weaponry.info(12)[m: Finished initialising Weapon Traits & Attributes! Took 12.553095ms
+2024-03-05 02:15:32,366 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(147)[m: Starting minecraft server version 1.18.2
+2024-03-05 02:15:32,375 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(152)[m: Loading properties
+2024-03-05 02:15:32,375 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(169)[m: Default game type: SURVIVAL
+2024-03-05 02:15:32,375 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129793_(1282)[m: Generating keypair
+2024-03-05 02:15:32,660 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(180)[m: Starting Minecraft server on *:25565
+2024-03-05 02:15:32,702 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerConnectionListener.m_9711_(79)[m: Using epoll channel type
+2024-03-05 02:15:32,862 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(192)[m: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2024-03-05 02:15:32,863 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(193)[m: The server will make no attempt to authenticate usernames. Beware.
+2024-03-05 02:15:32,863 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(194)[m: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2024-03-05 02:15:32,863 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(195)[m: To change this, set "online-mode" to "true" in the server.properties file.
+2024-03-05 02:15:33,003 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: This server is running Mohist version 1.18.2-146 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT, Forge version 40.2.17)
+2024-03-05 02:15:35,774 [33mWARN [m [m[Server thread][m [mMinecraft.publish(34)[m: Couldn't load server icon
+java.lang.IllegalArgumentException: Must be 64 pixels high
+	at org.apache.commons.lang3.Validate.isTrue(Validate.java:158) ~[commons-lang3-3.12.0.jar%2310!/:3.12.0]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadServerIcon0(CraftServer.java:1975) ~[forge-1.18.2-40.2.17-universal.jar%2393!/:7e29f765-296df566-9fb885e8]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadServerIcon0(CraftServer.java:1962) ~[forge-1.18.2-40.2.17-universal.jar%2393!/:7e29f765-296df566-9fb885e8]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadIcon(CraftServer.java:879) ~[forge-1.18.2-40.2.17-universal.jar%2393!/:7e29f765-296df566-9fb885e8]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.<init>(CraftServer.java:326) ~[forge-1.18.2-40.2.17-universal.jar%2393!/:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.players.PlayerList.<init>(PlayerList.java:149) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:16) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:205) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:827) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:287) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-03-05 02:15:35,869 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Debug logging is enabled
+2024-03-05 02:15:35,871 [32mINFO [m [m[Server thread][m [m.playerSample(274)[m: Server Ping Player Sample Count: 12
+2024-03-05 02:15:35,885 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Using 4 threads for Netty based IO
+2024-03-05 02:15:35,932 [32mINFO [m [m[Server thread][m [mjourneymap.load(43)[m: Loading JourneyMap Forge Configs
+2024-03-05 02:15:35,937 [32mINFO [m [m[Thread-0][m [mjourneymap.load(43)[m: Loading JourneyMap Forge Configs
+2024-03-05 02:15:36,683 [32mINFO [m [m[Server thread][m [mterrablender.initializeBiomes(115)[m: Initialized TerraBlender biomes for level stem minecraft:overworld
+2024-03-05 02:15:36,684 [32mINFO [m [m[Server thread][m [mterrablender.initializeBiomes(115)[m: Initialized TerraBlender biomes for level stem minecraft:the_nether
+2024-03-05 02:15:36,854 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(219)[m: Preparing level "world"
+2024-03-05 02:15:37,955 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+2024-03-05 02:15:37,966 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+2024-03-05 02:15:37,966 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+2024-03-05 02:15:37,967 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+2024-03-05 02:15:37,967 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+2024-03-05 02:15:37,968 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+2024-03-05 02:15:37,969 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+2024-03-05 02:15:37,969 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+2024-03-05 02:15:37,970 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+2024-03-05 02:15:38,197 [32mINFO [m [m[Server thread][m [m.initFeedingData(94)[m: []
+2024-03-05 02:15:38,202 [32mINFO [m [m[Server thread][m [m.initFeedingData(94)[m: [1 apple, 1 golden_apple, 1 enchanted_golden_apple, 1 banana]
+2024-03-05 02:15:38,278 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,279 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,280 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,281 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,281 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,282 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,283 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,285 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+2024-03-05 02:15:38,286 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,287 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,288 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,288 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,289 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,291 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,292 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,297 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,298 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,299 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,299 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,300 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+2024-03-05 02:15:38,308 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,309 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,310 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+2024-03-05 02:15:38,312 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,313 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+2024-03-05 02:15:38,313 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+2024-03-05 02:15:38,314 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,315 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,315 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,316 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,317 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,318 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,318 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,319 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,320 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,326 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,327 [33mWARN [m [m[Server thread][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+2024-03-05 02:15:38,516 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(600)[m: Preparing start region for dimension minecraft:overworld
+2024-03-05 02:15:40,729 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:40,745 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:40,765 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:40,771 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:40,787 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:41,021 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:41,518 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:42,022 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:42,519 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:43,021 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:43,529 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:44,019 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 2%
+2024-03-05 02:15:44,518 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
+2024-03-05 02:15:45,019 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
+2024-03-05 02:15:45,520 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 7%
+2024-03-05 02:15:46,017 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 21%
+2024-03-05 02:15:46,519 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 37%
+2024-03-05 02:15:47,017 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 81%
+2024-03-05 02:15:47,670 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 9154 ms
+2024-03-05 02:15:47,815 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(600)[m: Preparing start region for dimension minecraft:the_nether
+2024-03-05 02:15:48,673 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:48,675 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:48,830 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:49,329 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:49,832 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
+2024-03-05 02:15:50,317 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
+2024-03-05 02:15:50,816 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 7%
+2024-03-05 02:15:51,326 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 42%
+2024-03-05 02:15:51,823 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 90%
+2024-03-05 02:15:51,940 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 4125 ms
+2024-03-05 02:15:51,954 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(600)[m: Preparing start region for dimension minecraft:the_end
+2024-03-05 02:15:53,304 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:53,306 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:53,307 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:53,456 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:53,955 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-03-05 02:15:54,461 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
+2024-03-05 02:15:54,955 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 36%
+2024-03-05 02:15:55,458 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 92%
+2024-03-05 02:15:55,691 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 3737 ms
+2024-03-05 02:15:55,704 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Server permissions file permissions.yml is empty, ignoring it
+2024-03-05 02:15:55,828 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(223)[m: Done (19.925s)! For help, type "help"
+2024-03-05 02:15:55,914 [32mINFO [m [m[Server thread][m [mn.m.s.p.PermissionAPI.initializePermissionAPI(130)[m: Successfully initialized permission handler forge:default_handler
+2024-03-05 02:15:55,984 [32mINFO [m [m[Server thread][m [mc.g.a.i.IceAndFire.onServerStarted(166)[m: {SPAWN_DRAGON_SKELETON_I_CF=true, HYDRA_CAVE_CF=true, SPAWN_SEA_SERPENT_CF=true, SPAWN_STYMPHALIAN_BIRD_CF=true, SPAWN_WANDERING_CYCLOPS_CF=true, PIXIE_VILLAGE_CF=true, SPAWN_DEATH_WORM_CF=true, FIRE_DRAGON_CAVE_CF=true, SIREN_ISLAND_CF=true, MYRMEX_HIVE_DESERT_CF=true, SPAWN_HIPPOCAMPUS_CF=true, FIRE_DRAGON_ROOST_CF=true, MYRMEX_HIVE_JUNGLE_CF=true, COPPER_ORE_CF=true, SILVER_ORE_CF=true, LIGHTNING_DRAGON_CAVE_CF=true, SPAWN_DRAGON_SKELETON_F_CF=true, AMETHYST_ORE_CF=true, SPAWN_DRAGON_SKELETON_L_CF=true, LIGHTNING_LILY_CF=true, ICE_DRAGON_CAVE_CF=true, SAPPHIRE_ORE_CF=true, LIGHTNING_DRAGON_ROOST_CF=true, CYCLOPS_CAVE_CF=false, FROST_LILY_CF=true, FIRE_LILY_CF=true, ICE_DRAGON_ROOST_CF=true}
+2024-03-05 02:15:55,985 [32mINFO [m [m[Server thread][m [mc.g.a.i.IceAndFire.onServerStarted(167)[m: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=false, TROLL_F=true}
+2024-03-05 02:15:55,985 [33mWARN [m [m[Server thread][m [mvoicechat.log(53)[m: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+2024-03-05 02:15:56,037 [1;31mERROR[m [m[Server thread][m [mn.m.s.MinecraftServer.m_202468_(1024)[m: Couldn't load server icon
+java.lang.IllegalStateException: Must be 64 pixels high
+	at org.apache.commons.lang3.Validate.validState(Validate.java:816) ~[commons-lang3-3.12.0.jar%2310!/:3.12.0]
+	at net.minecraft.server.MinecraftServer.m_202468_(MinecraftServer.java:1018) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.server.MinecraftServer.m_129878_(MinecraftServer.java:1014) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:832) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:287) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-03-05 02:15:56,044 [32mINFO [m [m[VoiceChatServerThread][m [mvoicechat.log(53)[m: [voicechat] Voice chat server started at port 24454
+2024-03-05 02:15:56,781 [1;31mERROR[m [m[Server thread][m [mn.m.s.MinecraftServer.m_130011_(891)[m: Encountered an unexpected exception
+net.minecraft.ReportedException: Ticking entity
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:1125) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:377) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:1049) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:874) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:287) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.item.ItemEntity.m_32060_()" because "dropped" is null
+	at com.github.alexthe666.alexsmobs.entity.EntityCockroach.m_8119_(EntityCockroach.java:321) ~[alexsmobs-1.18.6.jar%2360!/:1.18.6]
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:702) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at net.minecraft.world.level.Level.m_46653_(Level.java:669) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:369) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:349) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:1121) ~[server-1.18.2-20220404.173914-srg.jar%2388!/:?]
+	... 5 more
+2024-03-05 02:15:56,875 [1;31mFATAL[m [m[Server thread][m [mn.m.c.ForgeMod.lambda$new$6(146)[m: Preparing crash report with UUID 6cc297d8-3a7c-4061-bb24-6f363d8b8629
+2024-03-05 02:15:56,881 [1;31mERROR[m [m[Server thread][m [mn.m.s.MinecraftServer.m_130011_(902)[m: This crash report has been saved to: /workspaces/codespaces-jupyter/Minecraft-server/./crash-reports/crash-2024-03-05_02.15.56-server.txt
+2024-03-05 02:15:56,882 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(736)[m: Stopping server
+2024-03-05 02:15:56,883 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(748)[m: Saving players
+2024-03-05 02:15:56,983 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(754)[m: Saving worlds
+2024-03-05 02:16:04,278 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(672)[m: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+2024-03-05 02:16:36,402 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(672)[m: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+2024-03-05 02:16:50,867 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(672)[m: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+2024-03-05 02:16:51,752 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(693)[m: ThreadedAnvilChunkStorage (world): All chunks are saved
+2024-03-05 02:16:51,753 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(693)[m: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+2024-03-05 02:16:51,754 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(693)[m: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+2024-03-05 02:16:51,755 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(696)[m: ThreadedAnvilChunkStorage: All dimensions are saved
